@@ -1,0 +1,63 @@
+day 2 remaining half...............................step by step .....................................
+
+
+after u got this
+
+Menu_Id
+101
+102
+103
+104
+105
+Canteen Management System
+-----------------------
+1. Show Menu
+2. Exit
+Enter your choice:
+2
+
+
+
+
+(type )  mvn package   (to create war file)
+
+copy the war file which is in target .
+
+now copy the apache-tomcat folder to ypur workspace...
+
+paste the war file in the apache-tomact---> webapps--> (paste that) and rename to MLPXXx.war and delete other MLP FILES
+
+********NOW GO TO new CMD PROMPT**********************************************
+
+cd workspace 
+cd apache-tomcat-8.5.53
+cd bin
+startup 
+
+
+(wait for some seconds)
+
+then again go to ***********now go to new CMD PROMPT***********************
+
+open cmd
+
+cd workspace
+cd MLPXXX
+cd webui
+cd lmApp
+npm install
+(************************wait for some  mins*********************)
+(u will get some errors and vulnerablities........)
+
+(then type)
+
+npm start
+
+(********************compile finished**************)
+
+now open chrome ::::
+
+
+http://localhost:4200
+
+
